@@ -1,8 +1,8 @@
 {
-  "author": "",
-  "name": "views",
+  "author": "Kris Windham <kriswindham@gmail.com",
+  "name": "coffee-with-cream",
   "description": "A sample flatiron web app using coffeecup views",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/gradus/coffeecup.git"
@@ -11,11 +11,15 @@
     "node": "0.6 || 0.7"
   },
   "dependencies": {
-    "flatiron": "*",
-    "union": "*",
-    "creamer": "*",
-    "ecstatic": "*"
+    "flatiron": "git://github.com/twilson63/flatiron.git",
+    "union": "0.3.0",
+    "creamer": "0.3.0",
+    "ecstatic": "0.1.6"
   },
   "devDependencies": {},
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "subdomain": "coffee-with-cream",
+  "scripts": {
+    "start": "server.js"
+  }
 }

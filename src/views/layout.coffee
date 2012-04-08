@@ -32,6 +32,7 @@ module.exports = ->
             div '.hero-unit', ->
               h2 'Creamer'
               p 'A great way to add coffee to flatiron'
+              img width: '200px', src: '/img/creamer.jpg'
 
       script src: 'http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js'
       script src: '/js/bootstrap.min.js'
